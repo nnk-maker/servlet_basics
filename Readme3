@@ -1,0 +1,14 @@
+Any business logic which has to be executed wheather the client send the request we have to provide code inside service() method.
+
+URL stands for "Uniform Resorce Locator" we have to use the following format for the URL.
+  http://ipaddress/contextpath/resource
+  
+  
+If System.out.println() in the servlet.
+Server execute the servlet and display the output on the server.
+
+To send the output to client we have to write the content inside response object.
+If we write the content in the response object, server will convert response object into http response format and send the output to the browser.
+
+
+
