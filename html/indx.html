@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Entry Form</title>
+    </head>
+    <style>
+        div.login-page.{
+
+            width: 360px;
+            padding: 5% 0 0;
+            margin: auto;
+        }
+
+        div.form{
+                position: relative;
+                z-index: 1;
+                background: #ffffff;
+                max-width: 360px;
+                margin: auto
+                padding: 100px;
+                text-align: center;
+                left: 30px;
+                border: 3px solid #73AD21;
+        }
+
+        div.form input{
+
+                font-family: "Roboto";
+                outline: 0;
+                background: #f2f2f2;
+                width: 50%;
+                border: 0;
+                margin: 0;
+                box-sizing: border-box
+                font-size: 14px
+        }
+        .form select{
+
+        }
+        .form buttom{
+            font-family: "Roboto";
+            text-transform: uppercase;
+            outline: 0;
+            background: #4CAF50;
+            width: 100%
+            border: 0;
+            padding: 15px;
+            color: #FFFFFF
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+    </style>
+    <body>
+        <div class="login-page">
+        <div class="form">
+            <form class="register-form" action="">
+                <label for="eno">Eno : </label>
+                <input type="text" id="eno" name="eno" placeholder="Your eno..">
+                <br>
+                <label for="name">Name : </label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+                <br>
+                <label for="pwd">pwd : </label>
+                <input type="text" id="pwd" name="pwd" placeholder="your pwd..">
+                <br>
+                <label for="country">Country :</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <br>
+                <label for="subject"> Subject :</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea><br>
+                <br>
+                <br>
+                <input type="submit" value="Submit"/>
+
+            </form>
+        </div>
+        </div>
+    </body>
+</html>
